@@ -1,0 +1,101 @@
+*{
+    font-family: 'Lato', sans-serif;
+
+}
+nav{
+    border-bottom: 1px solid rgba(0, 0, 0, 0.5);
+}
+#logo{
+    width: 50px;
+    height: 50px;
+    margin-left: 10px;
+}
+
+header{
+    /* background: url("../img/banner.jpg"); */
+    background: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url("../img/banner.jpg");
+    background-size: cover;
+    /* background-size: 1500px 1000px; */
+    width: 100%;
+    background-repeat: no-repeat;
+    height: 1000px;
+    overflow: hidden;
+}
+
+#aboutbelief p{
+    font-family: "inherit";
+    color: rgb(104,104,104);
+    font-weight: 400;
+    line-height: 1.4;
+
+}
+
+#contact{
+    background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.7)), url("../img/banner2.jpg") fixed;
+    background-size: cover;
+    width: 100%;
+    background-repeat: no-repeat;
+    height: 600px;
+    overflow: hidden;
+    color:white;
+    position: relative;
+}
+
+.difbg{
+    background: #f8f9fa;
+}
+
+#emailHelp{
+    color: white;
+    font-size: 13px;
+}
+
+.banner-text-items{
+    width: 40%;
+    margin: 300px auto;
+}
+
+#pdtrinson{
+    width: 300px;
+    height: 300px;
+    border-radius: 100%;
+}
+
+
+.socmed{
+    display: inline-block;
+    margin: 10px;
+    color: white;
+}
+
+i:hover{
+    color: black;
+}
+
+.socmed-container{
+    margin: 20px;
+}
+
+.inl{
+    display: inline-block;
+    margin-left: 10px;
+}
+
+.lnhei{
+    line-height: 0.5;
+}
+
+/* input, textarea, button{
+    padding: 10px;
+    margin: 10px;
+} */
+
+.dropbtn:hover .dropdown-menu {
+    display: block;
+}
+
+.card{
+    margin: 10px;
+}
+
+
